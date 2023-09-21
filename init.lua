@@ -15,5 +15,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+  "akinsho/bufferline.nvim",
   "nvim-lualine/lualine.nvim",
 })
