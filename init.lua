@@ -14,4 +14,6 @@ end
 
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup({})
+require("lazy").setup({
+  "nvim-lualine/lualine.nvim",
+})
